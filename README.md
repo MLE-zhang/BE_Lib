@@ -36,5 +36,4 @@ python BE+indels_quant_Library_try2.py #YourFolder# #OriginalBase# #FinalBase# #
 Example for checking C to T editing at position 6 in the protospacer: python BE+indels_quant_Library_try2.py #YourFolder# C T 6
 
 Note that the directories within the script will need to be changed to your current directories.
-![image](https://github.com/MLE-zhang/BE_Lib/assets/122937627/af98d4ab-d561-43ec-a98b-f65649cf3bef)
 
