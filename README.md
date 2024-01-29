@@ -1,4 +1,4 @@
-# Base Editor Profiling Library in E. coli_
+# Base Editor Profiling Library in E. coli
 Code for processing data from base editing profiling
 
 System requirements
