@@ -1,14 +1,14 @@
 # Base Editor Profiling Library in E. coli
 Code for processing data from base editing profiling
 
-System requirements
+System requirements:
 Tested with python3 environment
 
-Installation guide
+Installation guide:
 Packages to install: seqkit, csv, pandas, os, glob, re, sys
 Typical install time: 10 minutes
 
-Demo
+Demo:
 Follow instructions below with the input fastq files provided.  Note that these fastq files have already been processed with the following code: 
 
 seqkit seq -m 110 input.fastq.gz > output.fastq.gz
@@ -16,7 +16,7 @@ seqkit seq -m 110 input.fastq.gz > output.fastq.gz
 Expected output: BE_quant_AtoG_pos6.xlsx and BE_quant_CtoT_pos6.xlsx files 
 Typical run time: 20 min
 
-Instructions for use
+Instructions for use:
 First, process every input fasta with the following code:
 
 seqkit seq -m 110 input.fastq.gz > output.fastq.gz
