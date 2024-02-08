@@ -38,7 +38,11 @@ python BE+indels_quant_Library_try2.py [YourFolder] C T 6
 Note that the directories within the scripts will need to be changed to your current directories.
 
 ## Demo:
-Follow the instructions above with the input fastq files provided in the Demo folder.  
+Follow the instructions above with the input fastq file provided in the Demo folder.  Note that the fastq file has already been processed with the following code:
+
+```
+seqkit seq -m 110 [input.fastq.gz] > [output.fastq.gz]
+```
 
 Expected output: BE_quant_AtoG_pos6.xlsx and BE_quant_CtoT_pos6.xlsx files   
 
